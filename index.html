@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puncak Jawa Timur – Panduan Pendakian</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">⛰ PuncakJatim</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Beranda</a></li>
+        <li><a href="gunung.html">Daftar Gunung</a></li>
+        <li><a href="#tips">Tips Pendakian</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-badge">Jawa Timur</span>
+      <h1>Jelajahi Puncak<br /><span>Jawa Timur</span></h1>
+      <p>Temukan informasi lengkap pendakian gunung-gunung terbaik di Jawa Timur — jalur, ketinggian, tingkat kesulitan, dan tips perjalanan.</p>
+      <div class="hero-btns">
+        <a href="gunung.html" class="btn btn-primary">Lihat Semua Gunung</a>
+        <a href="#featured" class="btn btn-outline">Gunung Populer</a>
+      </div>
+    </div>
+    <div class="hero-scroll">↓ Scroll</div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">12+</span>
+        <span class="stat-label">Gunung di Jawa Timur</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">3.676</span>
+        <span class="stat-label">Meter Tertinggi (Semeru)</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">5</span>
+        <span class="stat-label">Tingkat Kesulitan</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">Informasi Terpercaya</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED MOUNTAINS -->
+  <section class="featured" id="featured">
+    <div class="container">
+      <div class="section-header">
+        <h2>Gunung Populer</h2>
+        <p>Destinasi favorit para pendaki di Jawa Timur</p>
+      </div>
+      <div class="card-grid" id="featured-grid">
+        <!-- diisi oleh JS -->
+      </div>
+      <div class="center-btn">
+        <a href="gunung.html" class="btn btn-primary">Lihat Semua Gunung →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIPS PENDAKIAN -->
+  <section class="tips" id="tips">
+    <div class="container">
+      <div class="section-header light">
+        <h2>Tips Pendakian</h2>
+        <p>Persiapan sebelum mendaki agar perjalanan aman dan menyenangkan</p>
+      </div>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <div class="tip-icon">🎒</div>
+          <h3>Persiapkan Perlengkapan</h3>
+          <p>Bawa tenda, sleeping bag, jas hujan, headlamp, dan perlengkapan P3K. Sesuaikan dengan durasi pendakian.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-icon">🗺️</div>
+          <h3>Pelajari Jalur</h3>
+          <p>Kenali jalur pendakian, titik air, dan pos-pos istirahat sebelum berangkat. Unduh peta offline jika perlu.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-icon">🌤️</div>
+          <h3>Cek Cuaca</h3>
+          <p>Pantau prakiraan cuaca 3–5 hari sebelum pendakian. Hindari mendaki saat musim hujan lebat.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-icon">👥</div>
+          <h3>Daftar & Izin</h3>
+          <p>Daftarkan diri di pos pendakian resmi dan minta izin dari pengelola taman nasional atau kawasan.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-icon">💧</div>
+          <h3>Jaga Hidrasi</h3>
+          <p>Minum air yang cukup selama pendakian. Bawa minimal 2 liter air dan ketahui sumber air di jalur.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-icon">🌿</div>
+          <h3>Leave No Trace</h3>
+          <p>Bawa turun semua sampahmu. Jaga kelestarian alam agar generasi berikutnya bisa menikmatinya.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section class="kontak" id="kontak">
+    <div class="container kontak-inner">
+      <div class="kontak-text">
+        <h2>Ada Pertanyaan?</h2>
+        <p>Hubungi kami untuk informasi lebih lanjut tentang pendakian gunung di Jawa Timur.</p>
+        <ul class="kontak-list">
+          <li>📧 info@puncakjatim.id</li>
+          <li>📱 +62 812-3456-7890</li>
+          <li>📍 Surabaya, Jawa Timur</li>
+        </ul>
+      </div>
+      <form class="kontak-form" onsubmit="submitForm(event)">
+        <input type="text" placeholder="Nama Anda" required />
+        <input type="email" placeholder="Email Anda" required />
+        <textarea placeholder="Pesan Anda..." rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo">⛰ PuncakJatim</span>
+        <p>Panduan pendakian gunung terlengkap di Jawa Timur.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="gunung.html">Daftar Gunung</a></li>
+          <li><a href="#tips">Tips Pendakian</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Gunung Populer</h4>
+        <ul>
+          <li><a href="gunung.html?id=semeru">Gunung Semeru</a></li>
+          <li><a href="gunung.html?id=bromo">Gunung Bromo</a></li>
+          <li><a href="gunung.html?id=arjuno">Gunung Arjuno</a></li>
+          <li><a href="gunung.html?id=ijen">Kawah Ijen</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 PuncakJatim. Dibuat dengan ❤️ untuk para pendaki.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
