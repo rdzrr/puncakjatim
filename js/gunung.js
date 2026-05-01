@@ -7,6 +7,16 @@ if (hamburger) {
   });
 }
 
+// Toggle filter bar di HP
+function toggleFilter() {
+  const btn = document.getElementById('filter-toggle-btn');
+  const bar = document.getElementById('filter-bar');
+  if (btn && bar) {
+    btn.classList.toggle('open');
+    bar.classList.toggle('open');
+  }
+}
+
 // Navbar scroll effect
 window.addEventListener('scroll', () => {
   const navbar = document.querySelector('.navbar');

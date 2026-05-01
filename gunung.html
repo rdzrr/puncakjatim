@@ -35,7 +35,11 @@
   <!-- FILTER & SEARCH -->
   <section class="filter-section">
     <div class="container">
-      <div class="filter-bar">
+      <button class="filter-toggle-btn" id="filter-toggle-btn" onclick="toggleFilter()">
+        <span>🔍 Cari & Filter Gunung</span>
+        <span class="arrow">▼</span>
+      </button>
+      <div class="filter-bar" id="filter-bar">
         <input type="text" id="search-input" placeholder="🔍 Cari nama gunung..." />
         <select id="filter-kesulitan">
           <option value="">Semua Tingkat</option>
