@@ -334,7 +334,7 @@ const gunungData = [
     waktuTempuh: '4-6 hari',
     populer: false,
     warna: '#2d5016',
-    foto: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Argopuro_%28Puncak_Rengganis%29.jpg',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Mount_Argopuro_from_a_Distance.jpg',
     deskripsi: 'Gunung Argopuro (Argapura) adalah gunung berapi kompleks yang sudah tidak aktif dengan ketinggian 3.088 mdpl. Merupakan titik tertinggi Pegunungan Iyang. Terkenal dengan jalur pendakian terpanjang di Pulau Jawa (±63 km) yang melewati padang savana, hutan lebat, dan Puncak Rengganis yang mistis.',
     jalurUtama: 'Baderan, Situbondo',
     taman: 'Suaka Margasatwa Dataran Tinggi Yang',
@@ -422,5 +422,384 @@ const gunungData = [
       'Cocok untuk pendaki pemula yang ingin mencoba gunung lebih dari 1.000 mdpl'
     ],
     fasilitas: ['Pos Registrasi Tamiajeng', 'Toilet Basecamp', 'Warung di Tamiajeng', 'Parkir Kendaraan', 'Pemandu Lokal']
+  },
+  {
+    id: 'kelud',
+    nama: 'Gunung Kelud',
+    emoji: '🌋',
+    ketinggian: 1731,
+    lokasi: 'Kab. Kediri, Kab. Blitar & Kab. Malang',
+    status: 'Aktif',
+    kesulitan: 'Mudah',
+    waktuTempuh: '1 hari',
+    populer: true,
+    warna: '#7b2d00',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Gunung_Kelud.jpg',
+    deskripsi: 'Gunung Kelud adalah gunung berapi aktif di Jawa Timur dengan ketinggian 1.731 mdpl. Terletak di perbatasan Kabupaten Kediri, Blitar, dan Malang. Sejak tahun 1000 M telah meletus lebih dari 30 kali. Letusan terakhir terjadi pada 13 Februari 2014 yang abunya menjangkau Yogyakarta dan Bandung. Kini kawahnya menjadi destinasi wisata populer.',
+    jalurUtama: 'Sugihwaras, Kab. Kediri',
+    taman: 'Kawasan Wisata Gunung Kelud',
+    musimTerbaik: 'April – Oktober',
+    tiket: 'Rp 15.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Sugihwaras (Kediri)',
+        durasi: '3-4 jam PP',
+        jarak: '±6 km PP',
+        keterangan: 'Jalur utama dan paling populer. Jalan beraspal hingga dekat puncak, cocok untuk wisatawan umum. Dari parkiran bisa berjalan kaki atau naik ojek ke kawah.',
+        pos: [
+          { nama: 'Gerbang Wisata Sugihwaras', ketinggian: '1.000 mdpl', keterangan: 'Pintu masuk, loket tiket & parkir', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Gardu Pandang', ketinggian: '1.300 mdpl', keterangan: 'Area istirahat dengan pemandangan lembah', jarakKePos: '±2 km dari Gerbang' },
+          { nama: 'Area Parkir Atas', ketinggian: '1.600 mdpl', keterangan: 'Parkir kendaraan terakhir, lanjut jalan kaki', jarakKePos: '±2 km dari Pos 1' },
+          { nama: 'Kawah Kelud', ketinggian: '1.731 mdpl', keterangan: 'Kawah kering pasca letusan 2014, pemandangan spektakuler', jarakKePos: '±1 km dari Area Parkir Atas' }
+        ]
+      }
+    ],
+    tips: [
+      'Cek status gunung sebelum berkunjung di magma.esdm.go.id',
+      'Bawa masker karena kadang ada bau belerang di sekitar kawah',
+      'Tersedia ojek dari parkiran bawah ke kawah jika tidak ingin jalan kaki',
+      'Waktu terbaik berkunjung pagi hari sebelum kabut datang',
+      'Jangan mendekati kawah saat status gunung Waspada atau lebih tinggi'
+    ],
+    fasilitas: ['Parkir Luas', 'Toilet Umum', 'Warung Makan', 'Ojek Lokal', 'Gardu Pandang', 'Jalan Beraspal ke Puncak']
+  },
+  {
+    id: 'kawi',
+    nama: 'Gunung Kawi',
+    emoji: '⛰️',
+    ketinggian: 2551,
+    lokasi: 'Kab. Malang & Kab. Blitar',
+    status: 'Tidak Aktif',
+    kesulitan: 'Sedang',
+    waktuTempuh: '2 hari',
+    populer: false,
+    warna: '#2e5902',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Kawi-Butak.jpg',
+    deskripsi: 'Gunung Kawi adalah gunung berapi yang sudah lama tidak aktif dengan ketinggian 2.551 mdpl, terletak di barat daya Kabupaten Malang berbatasan dengan Kabupaten Blitar. Dikenal juga sebagai "Gunung Putri Tidur" karena siluetnya menyerupai wanita tidur jika dilihat dari Kota Malang. Terkenal dengan Pesarean Gunung Kawi sebagai tempat ziarah.',
+    jalurUtama: 'Precet, Wagir, Kab. Malang',
+    taman: 'Kawasan Hutan Lindung Kawi-Butak',
+    musimTerbaik: 'April – Oktober',
+    tiket: 'Rp 10.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Precet (Wagir, Malang)',
+        durasi: '2 hari PP',
+        jarak: '±16 km PP',
+        keterangan: 'Jalur paling populer dari sisi Malang. Melewati hutan pinus dan perkebunan teh. Terdapat mata air di tengah jalur.',
+        pos: [
+          { nama: 'Pos Precet', ketinggian: '700 mdpl', keterangan: 'Basecamp & pos registrasi', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Hutan Pinus', ketinggian: '1.200 mdpl', keterangan: 'Hutan pinus lebat, jalur mulai menanjak', jarakKePos: '±3 km dari Pos Precet' },
+          { nama: 'Pos 2 Mata Air', ketinggian: '1.700 mdpl', keterangan: 'Sumber air bersih, area istirahat', jarakKePos: '±3 km dari Pos 1' },
+          { nama: 'Sabana Kawi', ketinggian: '2.300 mdpl', keterangan: 'Padang sabana luas, area camping favorit', jarakKePos: '±4 km dari Pos 2' },
+          { nama: 'Puncak Kawi', ketinggian: '2.551 mdpl', keterangan: 'Puncak dengan pemandangan Malang, Blitar & Waduk Karangkates', jarakKePos: '±1,5 km dari Sabana' }
+        ]
+      },
+      {
+        nama: 'Via Sirahkencong (Wlingi, Blitar)',
+        durasi: '2 hari PP',
+        jarak: '±18 km PP',
+        keterangan: 'Jalur dari sisi Blitar melewati perkebunan teh Sirahkencong yang indah. Pemandangan Kota Wlingi dan Blitar dari jalur ini sangat memukau.',
+        pos: [
+          { nama: 'Pos Sirahkencong', ketinggian: '900 mdpl', keterangan: 'Basecamp di area perkebunan teh', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Kebun Teh', ketinggian: '1.400 mdpl', keterangan: 'Melewati hamparan kebun teh yang luas', jarakKePos: '±4 km dari Sirahkencong' },
+          { nama: 'Pos 2 Hutan Montane', ketinggian: '2.000 mdpl', keterangan: 'Hutan pegunungan lebat', jarakKePos: '±3 km dari Pos 1' },
+          { nama: 'Sabana Kawi', ketinggian: '2.300 mdpl', keterangan: 'Bertemu jalur Precet, area camping', jarakKePos: '±4 km dari Pos 2' },
+          { nama: 'Puncak Kawi', ketinggian: '2.551 mdpl', keterangan: 'Puncak tertinggi Gunung Kawi', jarakKePos: '±1,5 km dari Sabana' }
+        ]
+      }
+    ],
+    tips: [
+      'Pesarean Gunung Kawi (tempat ziarah) bisa dikunjungi sebelum mendaki',
+      'Bawa air yang cukup, sumber air hanya ada di Pos 2 jalur Precet',
+      'Sabana Kawi adalah spot camping terbaik dengan pemandangan bintang',
+      'Pemandangan dari puncak mencakup Kota Malang, Blitar, dan Waduk Karangkates',
+      'Jalur Sirahkencong cocok untuk yang suka pemandangan perkebunan teh'
+    ],
+    fasilitas: ['Pos Registrasi Precet', 'Sumber Air Pos 2', 'Area Camping Sabana', 'Pemandu Lokal Tersedia']
+  },
+  {
+    id: 'butak',
+    nama: 'Gunung Butak (Mbutak)',
+    emoji: '🏔️',
+    ketinggian: 2868,
+    lokasi: 'Kab. Malang & Kab. Blitar',
+    status: 'Tidak Aktif',
+    kesulitan: 'Sulit',
+    waktuTempuh: '2 hari',
+    populer: false,
+    warna: '#1c3a0e',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/b/b3/Gunung_Buthak.jpg',
+    deskripsi: 'Gunung Butak (Buthak) adalah gunung berapi kerucut tidak aktif dengan ketinggian 2.868 mdpl, merupakan puncak tertinggi Pegunungan Kawi. Terletak di perbatasan Kabupaten Malang dan Blitar. Jalurnya dikenal cukup menantang dengan hutan lumut yang lebat dan sabana edelweis yang indah di bagian atas.',
+    jalurUtama: 'Via Panderman, Kota Batu',
+    taman: 'Kawasan Hutan Lindung Kawi-Butak',
+    musimTerbaik: 'April – Oktober',
+    tiket: 'Rp 10.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Panderman (Kota Batu)',
+        durasi: '2 hari PP',
+        jarak: '±20 km PP',
+        keterangan: 'Jalur paling populer, titik awal sama dengan jalur Gunung Panderman. Melewati hutan lumut yang rapat dan sabana edelweis. Terdapat "Tanjakan PHP" yang terkenal panjang dan menguras tenaga.',
+        pos: [
+          { nama: 'Pos Perizinan Panderman', ketinggian: '1.000 mdpl', keterangan: 'Basecamp & pos registrasi di Desa Pesanggrahan, Kota Batu', jarakKePos: 'Start' },
+          { nama: 'Pos 1', ketinggian: '1.400 mdpl', keterangan: 'Dilengkapi sumber air dan musala, ±1 jam dari basecamp', jarakKePos: '±3 km dari Basecamp' },
+          { nama: 'Pos 2 (Tanjakan PHP)', ketinggian: '1.900 mdpl', keterangan: 'Area istirahat luas, awas tanjakan panjang sebelum pos ini', jarakKePos: '±4 km dari Pos 1' },
+          { nama: 'Pos 3 Hutan Lumut', ketinggian: '2.400 mdpl', keterangan: 'Hutan lumut lebat dan lembap, spot camping terbaik', jarakKePos: '±3 km dari Pos 2' },
+          { nama: 'Pos 4 / Cemoro Kandang', ketinggian: '2.650 mdpl', keterangan: 'Jalur melipir jurang, dominasi pohon pinus', jarakKePos: '±2 km dari Pos 3' },
+          { nama: 'Sabana Edelweis', ketinggian: '2.750 mdpl', keterangan: 'Padang sabana luas dengan bunga edelweis, sumber air tersedia', jarakKePos: '±0,5 km dari Pos 4' },
+          { nama: 'Puncak Butak', ketinggian: '2.868 mdpl', keterangan: 'Puncak tertinggi, pemandangan Arjuno-Welirang yang memukau', jarakKePos: '±0,5 km dari Sabana' }
+        ]
+      }
+    ],
+    tips: [
+      'Pos 3 adalah tempat camping terbaik, tanah datar dan cukup luas',
+      'Hati-hati pohon tua rawan patah di sekitar Pos 3',
+      'Bawa air dari Pos 1 karena sumber air berikutnya di Sabana',
+      'Tanjakan PHP sebelum Pos 2 sangat menguras tenaga, istirahat cukup',
+      'Dari puncak bisa melihat Gunung Arjuno, Welirang, dan Kawi dengan jelas',
+      'Jalur ini juga bisa dilanjutkan ke Gunung Kawi (traverse)'
+    ],
+    fasilitas: ['Pos Registrasi Panderman', 'Sumber Air Pos 1', 'Sumber Air Sabana', 'Area Camping Pos 3', 'Area Camping Sabana']
+  },
+  {
+    id: 'panderman',
+    nama: 'Gunung Panderman',
+    emoji: '⛰️',
+    ketinggian: 2045,
+    lokasi: 'Kota Batu, Jawa Timur',
+    status: 'Tidak Aktif',
+    kesulitan: 'Mudah',
+    waktuTempuh: '1 hari',
+    populer: false,
+    warna: '#3a6b1a',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Gunung_Panderman.jpg',
+    deskripsi: 'Gunung Panderman adalah gunung di Kota Batu dengan puncak Basundara setinggi 2.045 mdpl. Nama "Panderman" berasal dari kata Jawa "dermo" yang berarti sekadar, karena dahulu digunakan sebagai tempat menyepi sementara. Cocok untuk pendaki pemula karena jalurnya relatif pendek dan tidak terlalu terjal.',
+    jalurUtama: 'Latar Ombo, Kota Batu',
+    taman: 'Kawasan Hutan Kota Batu',
+    musimTerbaik: 'Sepanjang tahun (terbaik April-Oktober)',
+    tiket: 'Rp 10.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Latar Ombo (Kota Batu)',
+        durasi: '6-7 jam PP',
+        jarak: '±10 km PP',
+        keterangan: 'Satu-satunya jalur resmi menuju puncak. Dari Malang ke Batu 45 menit, lalu ke Latar Ombo 90 menit, kemudian mendaki sekitar 3 jam ke puncak. Cocok untuk pendaki pemula.',
+        pos: [
+          { nama: 'Latar Ombo', ketinggian: '1.200 mdpl', keterangan: 'Basecamp & pos registrasi, parkir kendaraan', jarakKePos: 'Start' },
+          { nama: 'Pos 1', ketinggian: '1.500 mdpl', keterangan: 'Jalur melewati hutan pinus dan ladang warga', jarakKePos: '±2 km dari Latar Ombo' },
+          { nama: 'Pos 2', ketinggian: '1.750 mdpl', keterangan: 'Area istirahat, jalur mulai menanjak lebih terjal', jarakKePos: '±2 km dari Pos 1' },
+          { nama: 'Pos 3', ketinggian: '1.950 mdpl', keterangan: 'Hampir sampai puncak, vegetasi mulai terbuka', jarakKePos: '±1,5 km dari Pos 2' },
+          { nama: 'Puncak Basundara', ketinggian: '2.045 mdpl', keterangan: 'Puncak Panderman, pemandangan Kota Batu dan Malang', jarakKePos: '±0,5 km dari Pos 3' }
+        ]
+      }
+    ],
+    tips: [
+      'Sangat cocok untuk pendaki pemula atau pertama kali mendaki',
+      'Waktu tempuh ke puncak sekitar 3 jam dari Latar Ombo',
+      'Bawa air yang cukup karena tidak ada sumber air di jalur',
+      'Pemandangan Kota Batu dan Malang dari puncak sangat indah',
+      'Bisa dikombinasikan dengan wisata Kota Batu sebelum/sesudah mendaki'
+    ],
+    fasilitas: ['Pos Registrasi Latar Ombo', 'Parkir Kendaraan', 'Warung di Basecamp', 'Toilet Basecamp']
+  },
+  {
+    id: 'lincing',
+    nama: 'Gunung Lincing',
+    emoji: '🏔️',
+    ketinggian: 1655,
+    lokasi: 'Kab. Malang (Lereng Arjuno)',
+    status: 'Tidak Aktif',
+    kesulitan: 'Sedang',
+    waktuTempuh: '1 hari',
+    populer: false,
+    warna: '#2a5c3f',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Gunung_Arjuno.jpg',
+    deskripsi: 'Gunung Lincing adalah salah satu puncak di lereng Gunung Arjuno dengan ketinggian 1.655 mdpl. Aksesnya melalui kawasan Perkebunan Teh Wonosari Afdeling Gebug Lor, Lawang. Pendaki dapat mendaftar di Basecamp Arjuno Via Lawang. Menawarkan pemandangan perkebunan teh yang indah dan suasana hutan yang masih alami.',
+    jalurUtama: 'Via Lawang, Kab. Malang',
+    taman: 'Taman Hutan Raya Raden Soerjo',
+    musimTerbaik: 'April – Oktober',
+    tiket: 'Rp 15.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Lawang (Kab. Malang)',
+        durasi: '6-8 jam PP',
+        jarak: '±12 km PP',
+        keterangan: 'Jalur melalui kawasan Perkebunan Teh Wonosari. Daftar di Basecamp Arjuno Via Lawang. Melewati hamparan kebun teh yang indah sebelum masuk ke hutan pegunungan menuju puncak Lincing.',
+        pos: [
+          { nama: 'Basecamp Lawang', ketinggian: '500 mdpl', keterangan: 'Pos registrasi Arjuno Via Lawang, Wonorejo', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Kebun Teh Wonosari', ketinggian: '900 mdpl', keterangan: 'Melewati hamparan perkebunan teh Wonosari yang luas', jarakKePos: '±3 km dari Basecamp' },
+          { nama: 'Pos 2 Batas Hutan', ketinggian: '1.200 mdpl', keterangan: 'Batas perkebunan dan hutan pegunungan', jarakKePos: '±3 km dari Pos 1' },
+          { nama: 'Pos 3 Punggungan', ketinggian: '1.450 mdpl', keterangan: 'Jalur menyusuri punggungan dengan pemandangan lembah', jarakKePos: '±2 km dari Pos 2' },
+          { nama: 'Puncak Lincing', ketinggian: '1.655 mdpl', keterangan: 'Puncak dengan pemandangan lereng Arjuno dan perkebunan teh', jarakKePos: '±1 km dari Pos 3' }
+        ]
+      }
+    ],
+    tips: [
+      'Daftar di Basecamp Arjuno Via Lawang sebelum mendaki',
+      'Pemandangan perkebunan teh Wonosari sangat indah di pagi hari',
+      'Bawa jaket karena suhu di puncak cukup dingin',
+      'Cocok untuk pendaki yang ingin suasana berbeda dengan nuansa perkebunan',
+      'Bisa dikombinasikan dengan kunjungan ke Perkebunan Teh Wonosari'
+    ],
+    fasilitas: ['Pos Registrasi Lawang', 'Warung di Basecamp', 'Parkir Kendaraan', 'Pemandu Lokal Tersedia']
+  },
+  {
+    id: 'lawu',
+    nama: 'Gunung Lawu',
+    emoji: '🏔️',
+    ketinggian: 3265,
+    lokasi: 'Kab. Magetan & Kab. Ngawi (Jatim) – Kab. Karanganyar (Jateng)',
+    status: 'Aktif',
+    kesulitan: 'Sedang',
+    waktuTempuh: '2 hari',
+    populer: true,
+    warna: '#3b1f0a',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Gunung_Lawu.jpg',
+    deskripsi: 'Gunung Lawu adalah gunung berapi aktif di perbatasan Jawa Tengah dan Jawa Timur dengan ketinggian 3.265 mdpl. Memiliki tiga puncak utama: Hargo Dumilah (tertinggi), Hargo Dalem, dan Hargo Dumiling. Terakhir meletus 28 November 1885. Kaya nilai sejarah dan spiritual, terdapat Candi Sukuh, Candi Cetho, serta legenda moksa Prabu Brawijaya V di puncaknya.',
+    jalurUtama: 'Cemoro Sewu, Sarangan, Kab. Magetan',
+    taman: 'Kawasan Hutan Lindung Gunung Lawu',
+    musimTerbaik: 'April – Oktober',
+    tiket: 'Rp 15.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Cemoro Sewu (Sarangan, Magetan)',
+        durasi: '2 hari PP',
+        jarak: '±14 km PP',
+        keterangan: 'Jalur paling populer dari sisi Jawa Timur. Jalur tertata baik dengan batu alam, cocok untuk pemula. Waktu tempuh ke puncak sekitar 7 jam. Terdapat dua sumber mata air: Sendang Panguripan dan Sendang Drajat.',
+        pos: [
+          { nama: 'Basecamp Cemoro Sewu', ketinggian: '1.900 mdpl', keterangan: 'Pos registrasi, parkir & warung makan di Sarangan', jarakKePos: 'Start' },
+          { nama: 'Pos 1', ketinggian: '2.200 mdpl', keterangan: 'Melewati Sendang Panguripan (sumber air pertama)', jarakKePos: '±2 km dari Basecamp' },
+          { nama: 'Pos 2', ketinggian: '2.500 mdpl', keterangan: 'Area istirahat, jalur mulai menanjak', jarakKePos: '±2 km dari Pos 1' },
+          { nama: 'Pos 3', ketinggian: '2.750 mdpl', keterangan: 'Jalur berupa tangga batu alam', jarakKePos: '±2 km dari Pos 2' },
+          { nama: 'Pos 4', ketinggian: '3.000 mdpl', keterangan: 'Pemandangan Telaga Sarangan dari kejauhan', jarakKePos: '±1,5 km dari Pos 3' },
+          { nama: 'Pos 5 / Sendang Drajat', ketinggian: '3.100 mdpl', keterangan: 'Sumber air terakhir, area camping favorit', jarakKePos: '±1 km dari Pos 4' },
+          { nama: 'Hargo Dalem', ketinggian: '3.150 mdpl', keterangan: 'Puncak kedua, tempat moksa Prabu Brawijaya V, terdapat warung Mbok Yem', jarakKePos: '±0,5 km dari Pos 5' },
+          { nama: 'Hargo Dumilah', ketinggian: '3.265 mdpl', keterangan: 'Puncak tertinggi Gunung Lawu', jarakKePos: '±0,5 km dari Hargo Dalem' }
+        ]
+      },
+      {
+        nama: 'Via Cemoro Kandang (Tawangmangu, Jateng)',
+        durasi: '2 hari PP',
+        jarak: '±16 km PP',
+        keterangan: 'Jalur dari sisi Jawa Tengah, lebih panjang namun pemandangan lebih beragam. Melewati 5 shelter dengan jalur yang relatif tertata baik.',
+        pos: [
+          { nama: 'Basecamp Cemoro Kandang', ketinggian: '1.800 mdpl', keterangan: 'Pos registrasi di Tawangmangu, Karanganyar', jarakKePos: 'Start' },
+          { nama: 'Shelter 1', ketinggian: '2.100 mdpl', keterangan: 'Hutan pinus lebat', jarakKePos: '±2,5 km dari Basecamp' },
+          { nama: 'Shelter 2', ketinggian: '2.400 mdpl', keterangan: 'Area istirahat dengan pemandangan lembah', jarakKePos: '±2,5 km dari Shelter 1' },
+          { nama: 'Shelter 3', ketinggian: '2.700 mdpl', keterangan: 'Persimpangan jalur menuju kawah', jarakKePos: '±2 km dari Shelter 2' },
+          { nama: 'Shelter 4', ketinggian: '2.950 mdpl', keterangan: 'Jalur mulai terbuka, pemandangan luas', jarakKePos: '±2 km dari Shelter 3' },
+          { nama: 'Shelter 5 / Hargo Dalem', ketinggian: '3.150 mdpl', keterangan: 'Bertemu jalur Cemoro Sewu, warung Mbok Yem', jarakKePos: '±2 km dari Shelter 4' },
+          { nama: 'Hargo Dumilah', ketinggian: '3.265 mdpl', keterangan: 'Puncak tertinggi Gunung Lawu', jarakKePos: '±0,5 km dari Hargo Dalem' }
+        ]
+      }
+    ],
+    tips: [
+      'Warung Mbok Yem di Hargo Dalem adalah warung tertinggi di Pulau Jawa, buka 24 jam',
+      'Bawa pakaian sangat tebal — Lawu termasuk gunung terdingin di Jawa',
+      'Sendang Drajat adalah sumber air terakhir sebelum puncak via Cemoro Sewu',
+      'Hati-hati kabut tebal yang sering datang tiba-tiba di jalur atas',
+      'Jangan tinggalkan api unggun menyala — kebakaran 2015 menewaskan 6 pendaki',
+      'Jalur Cemoro Sewu paling direkomendasikan untuk pemula'
+    ],
+    fasilitas: ['Pos Registrasi Cemoro Sewu', 'Warung Mbok Yem (Hargo Dalem)', 'Sendang Panguripan', 'Sendang Drajat', 'Area Camping Pos 5', 'Toilet Basecamp', 'Parkir Luas']
+  },
+  {
+    id: 'wilis',
+    nama: 'Gunung Wilis',
+    emoji: '🏔️',
+    ketinggian: 2563,
+    lokasi: 'Kab. Kediri, Madiun, Nganjuk, Ponorogo, Tulungagung & Trenggalek',
+    status: 'Tidak Aktif',
+    kesulitan: 'Sulit',
+    waktuTempuh: '2-3 hari',
+    populer: false,
+    warna: '#1a4a2e',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Mount_Wilis_view.jpg',
+    deskripsi: 'Gunung Wilis adalah gunung berapi Tipe B yang sudah lama tidak aktif dengan puncak tertinggi Trogati (Liman) setinggi 2.563 mdpl. Merupakan pegunungan yang mencakup wilayah enam kabupaten di Jawa Timur. Dikenal sebagai "Gunung Air" terbesar di Pulau Jawa karena memiliki banyak sumber air dan air terjun. Jalur pendakiannya cukup menantang dan beberapa kasus pendaki tersesat pernah terjadi.',
+    jalurUtama: 'Via Kare, Kab. Madiun',
+    taman: 'Cagar Alam Gunung Wilis',
+    musimTerbaik: 'Juni – Agustus',
+    tiket: 'Rp 10.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Kare (Kab. Madiun) – Jalur Resmi',
+        durasi: '2-3 hari PP',
+        jarak: '±20 km PP',
+        keterangan: 'Jalur resmi menuju Puncak Trogati/Liman yang dikelola Kare Eco Adventure. Dimulai dari Dusun Seweru, Desa Kare. Melewati perkebunan kopi Kandangan, Sabana Edelweis Pangangonan, dan punggungan menuju puncak.',
+        pos: [
+          { nama: 'Basecamp Seweru', ketinggian: '700 mdpl', keterangan: 'Pos registrasi Kare Eco Adventure, Desa Kare, Madiun', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Perkebunan Kopi', ketinggian: '1.100 mdpl', keterangan: 'Melewati perkebunan kopi Kandangan yang luas', jarakKePos: '±4 km dari Basecamp' },
+          { nama: 'Pos 2 Afdelling Pulosari', ketinggian: '1.500 mdpl', keterangan: 'Titik awal berjalan kaki menuju sabana', jarakKePos: '±4 km dari Pos 1' },
+          { nama: 'Sabana Pangangonan', ketinggian: '2.000 mdpl', keterangan: 'Padang sabana edelweis yang indah, area camping', jarakKePos: '±4 km dari Pos 2' },
+          { nama: 'Pos 3 Hutan Hujan Tropis', ketinggian: '2.200 mdpl', keterangan: 'Hutan lebat dengan jalur menanjak', jarakKePos: '±2 km dari Sabana' },
+          { nama: 'Watu Garuda', ketinggian: '2.450 mdpl', keterangan: 'Batu besar berbentuk garuda, pemandangan luas', jarakKePos: '±2 km dari Pos 3' },
+          { nama: 'Puncak Trogati (Liman)', ketinggian: '2.563 mdpl', keterangan: 'Puncak tertinggi Gunung Wilis', jarakKePos: '±0,5 km dari Watu Garuda' }
+        ]
+      },
+      {
+        nama: 'Via Joho Semen (Kab. Kediri)',
+        durasi: '2-3 hari PP',
+        jarak: '±18 km PP',
+        keterangan: 'Jalur populer dari sisi Kediri melalui Taman Kelir, Desa Joho. Dikelola Wana Rescue Kediri. Jalur cukup menantang dengan vegetasi lebat, beberapa kasus tersesat pernah terjadi.',
+        pos: [
+          { nama: 'Taman Kelir, Desa Joho', ketinggian: '600 mdpl', keterangan: 'Pos registrasi & parkir, Kec. Semen, Kediri', jarakKePos: 'Start' },
+          { nama: 'Pos 1', ketinggian: '1.000 mdpl', keterangan: 'Hutan lebat, jalur mulai menanjak', jarakKePos: '±3 km dari Taman Kelir' },
+          { nama: 'Pos 2', ketinggian: '1.500 mdpl', keterangan: 'Area istirahat, vegetasi sangat rapat', jarakKePos: '±4 km dari Pos 1' },
+          { nama: 'Pos 3', ketinggian: '2.000 mdpl', keterangan: 'Jalur punggungan, kabut sering tebal', jarakKePos: '±4 km dari Pos 2' },
+          { nama: 'Puncak Wilis', ketinggian: '2.563 mdpl', keterangan: 'Puncak tertinggi dari sisi Kediri', jarakKePos: '±3 km dari Pos 3' }
+        ]
+      }
+    ],
+    tips: [
+      'Gunakan jalur resmi Via Kare untuk keamanan, hindari jalur tidak resmi',
+      'Bawa peta dan kompas — beberapa pendaki pernah tersesat di jalur Kediri',
+      'Sabana Pangangonan adalah spot camping terbaik dengan pemandangan edelweis',
+      'Bawa air yang cukup, sumber air terbatas di jalur atas',
+      'Pergi minimal 4 orang dan beritahu keluarga rencana pendakian',
+      'Cek cuaca sebelum mendaki karena kabut tebal sering datang tiba-tiba'
+    ],
+    fasilitas: ['Pos Registrasi Kare Eco Adventure', 'Area Camping Sabana Pangangonan', 'Sumber Air Pos 1', 'Pemandu Lokal Tersedia']
+  },
+  {
+    id: 'anjasmoro',
+    nama: 'Gunung Anjasmoro',
+    emoji: '⛰️',
+    ketinggian: 2372,
+    lokasi: 'Kab. Jombang, Kab. Mojokerto, Kab. Malang & Kota Batu',
+    status: 'Tidak Aktif',
+    kesulitan: 'Sedang',
+    waktuTempuh: '2 hari',
+    populer: false,
+    warna: '#2b4a1a',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Gunung_Anjasmoro_dari_Pujon.jpg',
+    deskripsi: 'Gunung Anjasmoro adalah pegunungan di Jawa Timur dengan lebih dari 40 puncak. Puncak tertingginya adalah Puncak Gunung Biru (2.331 mdpl) dan Puncak Anjasmoro (2.269 mdpl) di wilayah Kabupaten Mojokerto. Terletak berdekatan dengan kompleks Arjuno-Welirang. Catatan penting: pendakian resmi saat ini DITUTUP untuk melindungi ekosistem dan flora-fauna yang dilindungi.',
+    jalurUtama: 'Via Wonosalam, Kab. Jombang',
+    taman: 'Taman Hutan Raya Raden Soerjo',
+    musimTerbaik: 'April – Oktober',
+    tiket: 'Informasi tiket menyesuaikan kebijakan terbaru',
+    jalur: [
+      {
+        nama: 'Via Wonosalam (Kab. Jombang)',
+        durasi: '2 hari PP',
+        jarak: '±16 km PP',
+        keterangan: '⚠️ PERHATIAN: Pendakian Gunung Anjasmoro saat ini resmi DITUTUP karena ekosistem masih utuh dan banyak flora-fauna dilindungi. Topografi yang curam juga membahayakan keselamatan. Informasi jalur ini hanya untuk referensi.',
+        pos: [
+          { nama: 'Pos Wonosalam', ketinggian: '600 mdpl', keterangan: 'Titik awal pendakian, Kec. Wonosalam, Jombang', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Hutan Bawah', ketinggian: '1.100 mdpl', keterangan: 'Hutan dipterokarp bawah yang lebat', jarakKePos: '±4 km dari Pos Wonosalam' },
+          { nama: 'Pos 2 Hutan Montane', ketinggian: '1.700 mdpl', keterangan: 'Hutan pegunungan dengan vegetasi khas', jarakKePos: '±4 km dari Pos 1' },
+          { nama: 'Pos 3 Punggungan', ketinggian: '2.100 mdpl', keterangan: 'Jalur punggungan menuju puncak', jarakKePos: '±3 km dari Pos 2' },
+          { nama: 'Puncak Anjasmoro', ketinggian: '2.269 mdpl', keterangan: 'Salah satu puncak utama Gunung Anjasmoro', jarakKePos: '±2 km dari Pos 3' },
+          { nama: 'Puncak Gunung Biru', ketinggian: '2.331 mdpl', keterangan: 'Puncak tertinggi kompleks Anjasmoro', jarakKePos: '±1 km dari Puncak Anjasmoro' }
+        ]
+      }
+    ],
+    tips: [
+      '⚠️ Pendakian resmi DITUTUP — cek status terbaru sebelum berencana mendaki',
+      'Hubungi Taman Hutan Raya Raden Soerjo untuk informasi terkini',
+      'Gunung ini memiliki ekosistem yang sangat terjaga dan banyak satwa dilindungi',
+      'Topografi sangat curam dan terjal, hanya untuk pendaki berpengalaman',
+      'Pemandangan Gunung Anjasmoro dari Pujon, Malang sangat indah untuk dinikmati tanpa mendaki'
+    ],
+    fasilitas: ['Informasi di Tahura Raden Soerjo', 'Pemandu Lokal (jika dibuka kembali)']
   }
 ];
