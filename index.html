@@ -20,7 +20,11 @@
         <li><a href="#tips">Tips Pendakian</a></li>
         <li><a href="#kontak">Kontak</a></li>
       </ul>
-      <button class="hamburger" id="hamburger">&#9776;</button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
     </div>
   </nav>
 
@@ -82,40 +86,40 @@
     <div class="container">
       <div class="section-header light">
         <h2>Tips Pendakian</h2>
-        <p>Persiapan sebelum mendaki agar perjalanan aman dan menyenangkan</p>
+        <p>Cari gunung tujuanmu dan dapatkan tips persiapan yang tepat</p>
       </div>
-      <div class="tips-grid">
-        <div class="tip-card">
-          <div class="tip-icon">🎒</div>
-          <h3>Persiapkan Perlengkapan</h3>
-          <p>Bawa tenda, sleeping bag, jas hujan, headlamp, dan perlengkapan P3K. Sesuaikan dengan durasi pendakian.</p>
+
+      <!-- Search Gunung -->
+      <div class="tips-search-wrap">
+        <div class="tips-search-box">
+          <span class="tips-search-icon">&#128269;</span>
+          <input
+            type="text"
+            id="tips-search-input"
+            class="tips-search-input"
+            placeholder="Ketik nama gunung, misal: Semeru..."
+            autocomplete="off"
+          />
+          <button class="tips-search-clear" id="tips-search-clear" style="display:none;">&#10005;</button>
         </div>
-        <div class="tip-card">
-          <div class="tip-icon">🗺️</div>
-          <h3>Pelajari Jalur</h3>
-          <p>Kenali jalur pendakian, titik air, dan pos-pos istirahat sebelum berangkat. Unduh peta offline jika perlu.</p>
+        <ul class="tips-dropdown" id="tips-dropdown"></ul>
+      </div>
+
+      <!-- Konten Tips -->
+      <div class="tips-content" id="tips-content">
+        <!-- State awal -->
+        <div class="tips-placeholder" id="tips-placeholder">
+          <div class="tips-placeholder-icon">&#9968;&#65039;</div>
+          <p>Ketik nama gunung di atas untuk melihat tips pendakiannya</p>
         </div>
-        <div class="tip-card">
-          <div class="tip-icon">🌤️</div>
-          <h3>Cek Cuaca</h3>
-          <p>Pantau prakiraan cuaca 3–5 hari sebelum pendakian. Hindari mendaki saat musim hujan lebat.</p>
-        </div>
-        <div class="tip-card">
-          <div class="tip-icon">👥</div>
-          <h3>Daftar & Izin</h3>
-          <p>Daftarkan diri di pos pendakian resmi dan minta izin dari pengelola taman nasional atau kawasan.</p>
-        </div>
-        <div class="tip-card">
-          <div class="tip-icon">💧</div>
-          <h3>Jaga Hidrasi</h3>
-          <p>Minum air yang cukup selama pendakian. Bawa minimal 2 liter air dan ketahui sumber air di jalur.</p>
-        </div>
-        <div class="tip-card">
-          <div class="tip-icon">🌿</div>
-          <h3>Leave No Trace</h3>
-          <p>Bawa turun semua sampahmu. Jaga kelestarian alam agar generasi berikutnya bisa menikmatinya.</p>
+
+        <!-- Detail tips gunung terpilih -->
+        <div class="tips-detail" id="tips-detail" style="display:none;">
+          <div class="tips-detail-header" id="tips-detail-header"></div>
+          <div class="tips-detail-body" id="tips-detail-body"></div>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -171,6 +175,7 @@
   </footer>
 
   <script src="js/data.js"></script>
+  <script src="js/persiapan.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

@@ -801,5 +801,285 @@ const gunungData = [
       'Pemandangan Gunung Anjasmoro dari Pujon, Malang sangat indah untuk dinikmati tanpa mendaki'
     ],
     fasilitas: ['Informasi di Tahura Raden Soerjo', 'Pemandu Lokal (jika dibuka kembali)']
+  },
+  {
+    id: 'budugasu',
+    nama: 'Bukit Budug Asu',
+    emoji: '🌿',
+    ketinggian: 1500,
+    lokasi: 'Kec. Lawang, Kab. Malang',
+    status: 'Tidak Aktif',
+    kesulitan: 'Sedang',
+    waktuTempuh: '1 hari',
+    populer: false,
+    warna: '#3a7d44',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Gunung_Arjuno.jpg',
+    deskripsi: 'Bukit Budug Asu adalah perbukitan savana di lereng barat Gunung Arjuno, terletak di kawasan Perhutani Lawang, Kabupaten Malang. Awalnya dikenal sebagai jalur motocross dan offroad, kini berkembang menjadi destinasi wisata alam yang populer. Dari puncaknya tersaji pemandangan hamparan savana hijau luas dengan latar Gunung Arjuno yang megah.',
+    jalurUtama: 'Via Lawang, Kab. Malang',
+    taman: 'Kawasan Perhutani Lawang',
+    musimTerbaik: 'Maret – Oktober',
+    tiket: 'Rp 10.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Lawang (Jalur Utama)',
+        durasi: '3-4 jam PP',
+        jarak: '±8,5 km PP',
+        keterangan: 'Jalur satu-satunya menuju puncak savana Budug Asu. Dimulai dari basecamp di Lawang, melewati hutan pinus Perhutani dan padang savana terbuka. Jalur cukup jelas dan cocok untuk pendaki pemula hingga menengah.',
+        pos: [
+          { nama: 'Basecamp Lawang', ketinggian: '500 mdpl', keterangan: 'Pos registrasi & parkir kendaraan', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Hutan Pinus', ketinggian: '900 mdpl', keterangan: 'Melewati hutan pinus Perhutani yang rindang', jarakKePos: '±2 km dari Basecamp' },
+          { nama: 'Pos 2 Batas Savana', ketinggian: '1.200 mdpl', keterangan: 'Jalur mulai terbuka, savana mulai terlihat', jarakKePos: '±2 km dari Pos 1' },
+          { nama: 'Savana Budug Asu', ketinggian: '1.400 mdpl', keterangan: 'Hamparan savana luas dengan pemandangan Arjuno', jarakKePos: '±2 km dari Pos 2' },
+          { nama: 'Puncak Budug Asu', ketinggian: '1.500 mdpl', keterangan: 'Titik tertinggi, panorama 360° savana dan Arjuno', jarakKePos: '±0,5 km dari Savana' }
+        ]
+      }
+    ],
+    tips: [
+      'Cocok untuk pendaki pemula dan wisata keluarga',
+      'Datang pagi hari untuk menghindari kabut dan panas terik',
+      'Pemandangan savana paling indah saat musim hujan (hijau) dan musim kemarau (keemasan)',
+      'Bawa air yang cukup karena tidak ada sumber air di jalur',
+      'Bisa dikombinasikan dengan pendakian Gunung Lincing via Lawang'
+    ],
+    fasilitas: ['Pos Registrasi Lawang', 'Parkir Kendaraan', 'Warung di Basecamp', 'Pemandu Lokal Tersedia']
+  },
+  {
+    id: 'petuklesung',
+    nama: 'Bukit Petuk Lesung',
+    emoji: '⛰️',
+    ketinggian: 1400,
+    lokasi: 'Kec. Lawang, Kab. Malang',
+    status: 'Tidak Aktif',
+    kesulitan: 'Sedang',
+    waktuTempuh: '1 hari',
+    populer: false,
+    warna: '#2e6b3e',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Gunung_Arjuno.jpg',
+    deskripsi: 'Bukit Petuk Lesung adalah perbukitan di lereng Gunung Arjuno kawasan Lawang, Kabupaten Malang. Berada di kawasan Perhutani dan berdekatan dengan Bukit Budug Asu. Menawarkan pemandangan alam pegunungan yang asri dengan jalur yang melewati hutan pinus dan padang rumput terbuka.',
+    jalurUtama: 'Via Lawang, Kab. Malang',
+    taman: 'Kawasan Perhutani Lawang',
+    musimTerbaik: 'April – Oktober',
+    tiket: 'Rp 10.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Lawang (Jalur Utama)',
+        durasi: '3-4 jam PP',
+        jarak: '±7 km PP',
+        keterangan: 'Jalur dari basecamp Lawang melewati hutan pinus dan padang rumput. Jalur relatif landai di awal kemudian menanjak menuju puncak. Bisa dikombinasikan dengan Budug Asu dalam satu hari.',
+        pos: [
+          { nama: 'Basecamp Lawang', ketinggian: '500 mdpl', keterangan: 'Pos registrasi & parkir kendaraan', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Hutan Pinus', ketinggian: '850 mdpl', keterangan: 'Hutan pinus Perhutani, jalur mulai menanjak', jarakKePos: '±2 km dari Basecamp' },
+          { nama: 'Pos 2 Padang Rumput', ketinggian: '1.150 mdpl', keterangan: 'Area terbuka dengan padang rumput dan pemandangan lembah', jarakKePos: '±2 km dari Pos 1' },
+          { nama: 'Puncak Petuk Lesung', ketinggian: '1.400 mdpl', keterangan: 'Puncak dengan pemandangan lereng Arjuno dan lembah Lawang', jarakKePos: '±1,5 km dari Pos 2' }
+        ]
+      }
+    ],
+    tips: [
+      'Cocok untuk pendaki pemula dan wisata alam keluarga',
+      'Bisa dikombinasikan dengan Bukit Budug Asu dalam satu hari perjalanan',
+      'Bawa air yang cukup karena tidak ada sumber air di jalur',
+      'Datang pagi hari untuk pemandangan terbaik sebelum kabut datang',
+      'Gunakan alas kaki yang nyaman karena jalur berbatu di beberapa bagian'
+    ],
+    fasilitas: ['Pos Registrasi Lawang', 'Parkir Kendaraan', 'Warung di Basecamp']
+  },
+  {
+    id: 'batok',
+    nama: 'Gunung Batok',
+    emoji: '🌋',
+    ketinggian: 2440,
+    lokasi: 'Kab. Probolinggo & Kab. Pasuruan',
+    status: 'Tidak Aktif',
+    kesulitan: 'Sedang',
+    waktuTempuh: '1 hari',
+    populer: false,
+    warna: '#6b4c11',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Gunung_Bromo_3.jpg',
+    deskripsi: 'Gunung Batok adalah gunung berapi kerucut yang sudah tidak aktif dengan ketinggian 2.440 mdpl, terletak di dalam kaldera Tengger berdampingan dengan Gunung Bromo. Bentuknya yang sempurna seperti kerucut menjadikannya salah satu pemandangan ikonik kawasan Bromo. Gunung ini dianggap suci oleh suku Tengger dan secara resmi tidak boleh didaki.',
+    jalurUtama: 'Kawasan Kaldera Tengger, Probolinggo',
+    taman: 'Taman Nasional Bromo Tengger Semeru',
+    musimTerbaik: 'April – Oktober',
+    tiket: 'Rp 29.000 (WNI weekday) / Rp 34.000 (WNI weekend)',
+    jalur: [
+      {
+        nama: 'Dari Lautan Pasir (Hanya Observasi)',
+        durasi: '1-2 jam PP',
+        jarak: '±4 km PP',
+        keterangan: '⚠️ Pendakian ke puncak Gunung Batok secara resmi DILARANG karena dianggap suci oleh suku Tengger. Pengunjung hanya dapat menikmati pemandangan Gunung Batok dari lautan pasir atau dari Penanjakan. Jalur ini hanya untuk mendekat ke kaki gunung.',
+        pos: [
+          { nama: 'Cemoro Lawang', ketinggian: '2.200 mdpl', keterangan: 'Titik awal, naik jeep ke lautan pasir', jarakKePos: 'Start' },
+          { nama: 'Lautan Pasir', ketinggian: '2.100 mdpl', keterangan: 'Area lautan pasir, pemandangan Batok dari dekat', jarakKePos: '±2 km dari Cemoro Lawang' },
+          { nama: 'Kaki Gunung Batok', ketinggian: '2.200 mdpl', keterangan: 'Titik terdekat yang boleh dikunjungi', jarakKePos: '±1 km dari Lautan Pasir' }
+        ]
+      }
+    ],
+    tips: [
+      '⚠️ Pendakian ke puncak DILARANG — Gunung Batok adalah gunung suci suku Tengger',
+      'Nikmati pemandangan Batok dari Penanjakan atau lautan pasir',
+      'Gunung Batok paling indah difoto saat sunrise dari Penanjakan',
+      'Hormati kepercayaan dan adat suku Tengger di kawasan ini',
+      'Tiket masuk TNBTS sudah mencakup akses ke kawasan lautan pasir'
+    ],
+    fasilitas: ['Parkir Cemoro Lawang', 'Penyewaan Jeep 4WD', 'Penyewaan Kuda', 'Pemandu Wisata', 'Warung Makan']
+  },
+  {
+    id: 'baluran',
+    nama: 'Gunung Baluran',
+    emoji: '🏔️',
+    ketinggian: 1265,
+    lokasi: 'Kab. Situbondo & Kab. Banyuwangi',
+    status: 'Tidak Aktif',
+    kesulitan: 'Sulit',
+    waktuTempuh: '2 hari',
+    populer: false,
+    warna: '#7a5c1e',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/b/b3/Gunung_Buthak.jpg',
+    deskripsi: 'Gunung Baluran adalah gunung berapi istirahat dengan ketinggian 1.265 mdpl, terletak di ujung timur laut Pulau Jawa dalam kawasan Taman Nasional Baluran. Dikenal sebagai "Afrika van Java" karena savana kering dan satwa liarnya yang khas. Pendakian ke puncak sangat jarang dilakukan dan memerlukan izin khusus dari pengelola taman nasional.',
+    jalurUtama: 'Karang Tekok, Kab. Situbondo',
+    taman: 'Taman Nasional Baluran',
+    musimTerbaik: 'Juni – Agustus',
+    tiket: 'Rp 15.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Karang Tekok (Situbondo)',
+        durasi: '2 hari PP',
+        jarak: '±20 km PP',
+        keterangan: '⚠️ Akses pendakian ke puncak sangat terbatas dan memerlukan izin khusus dari Balai TN Baluran. Jalur melewati perkebunan jati dan hutan lebat yang kemungkinan sudah tertutup. Sebagian besar pengunjung menikmati savana dan satwa liar dari Bekol tanpa mendaki puncak.',
+        pos: [
+          { nama: 'Batangan (Pintu Masuk TN)', ketinggian: '10 mdpl', keterangan: 'Gerbang utama Taman Nasional Baluran', jarakKePos: 'Start' },
+          { nama: 'Bekol', ketinggian: '300 mdpl', keterangan: 'Savana ikonik, viewpoint satwa liar (banteng, rusa, merak)', jarakKePos: '±12 km dari Batangan' },
+          { nama: 'Karang Tekok', ketinggian: '400 mdpl', keterangan: 'Titik awal jalur menuju puncak (izin khusus)', jarakKePos: '±5 km dari Bekol' },
+          { nama: 'Puncak Baluran', ketinggian: '1.265 mdpl', keterangan: 'Puncak gunung, pemandangan Selat Bali dan Madura', jarakKePos: '±8 km dari Karang Tekok' }
+        ]
+      }
+    ],
+    tips: [
+      '⚠️ Hubungi Balai TN Baluran (082332213114) jauh hari sebelum berencana mendaki',
+      'Pendakian ke puncak memerlukan izin khusus dan kemungkinan perlu pemandu ranger',
+      'Sebagian besar wisatawan menikmati savana Bekol tanpa mendaki puncak',
+      'Bekol adalah spot terbaik melihat banteng, rusa, dan merak di pagi/sore hari',
+      'Bawa air yang cukup karena tidak ada sumber air di jalur atas',
+      'Kawasan ini memiliki suasana seperti Afrika dengan savana kering yang unik'
+    ],
+    fasilitas: ['Gerbang Batangan', 'Penginapan di Bekol', 'Toilet Umum', 'Pemandu Ranger', 'Parkir Kendaraan']
+  },
+  {
+    id: 'gunungmalang',
+    nama: 'Gunung Malang',
+    emoji: '🏔️',
+    ketinggian: 1718,
+    lokasi: 'Kab. Malang & Kab. Blitar (Lereng Gunung Kawi)',
+    status: 'Tidak Aktif',
+    kesulitan: 'Sedang',
+    waktuTempuh: '1 hari',
+    populer: false,
+    warna: '#3b6e2a',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Kawi-Butak.jpg',
+    deskripsi: 'Gunung Malang adalah puncak di kawasan Pegunungan Kawi dengan ketinggian 1.718 mdpl. Terletak di lereng Gunung Kawi, perbatasan Kabupaten Malang dan Blitar. Jalur pendakiannya dikenal dengan nama Bukit Jabal sebagai titik awal, menawarkan pemandangan alam pegunungan Kawi yang asri. Cocok untuk pendaki yang ingin menjelajahi kawasan Kawi selain puncak utamanya.',
+    jalurUtama: 'Basecamp Bukit Jabal, Kab. Malang',
+    taman: 'Kawasan Hutan Lindung Kawi-Butak',
+    musimTerbaik: 'April – Oktober',
+    tiket: 'Rp 10.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Bukit Jabal (Jalur Utama)',
+        durasi: '6-8 jam PP',
+        jarak: '±12 km PP',
+        keterangan: 'Jalur dari basecamp Bukit Jabal menuju puncak Gunung Malang. Melewati hutan pinus dan hutan montane lereng Kawi. Jalur ini juga dikenal sebagai rute "tektok" (pergi-pulang dalam sehari) yang populer di kalangan pendaki lokal.',
+        pos: [
+          { nama: 'Basecamp Bukit Jabal', ketinggian: '700 mdpl', keterangan: 'Pos registrasi & parkir kendaraan', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Hutan Pinus', ketinggian: '1.000 mdpl', keterangan: 'Melewati hutan pinus, jalur mulai menanjak', jarakKePos: '±2 km dari Basecamp' },
+          { nama: 'Pos 2 Hutan Montane', ketinggian: '1.300 mdpl', keterangan: 'Hutan pegunungan lebat, jalur semakin terjal', jarakKePos: '±3 km dari Pos 1' },
+          { nama: 'Pos 3 Punggungan', ketinggian: '1.550 mdpl', keterangan: 'Jalur menyusuri punggungan dengan pemandangan lembah', jarakKePos: '±2 km dari Pos 2' },
+          { nama: 'Puncak Gunung Malang', ketinggian: '1.718 mdpl', keterangan: 'Puncak dengan pemandangan kawasan Kawi-Butak', jarakKePos: '±1,5 km dari Pos 3' }
+        ]
+      }
+    ],
+    tips: [
+      'Cocok untuk pendaki menengah yang ingin menjelajahi kawasan Kawi',
+      'Jalur ini populer sebagai rute tektok (pergi-pulang sehari)',
+      'Bawa air yang cukup karena tidak ada sumber air di jalur',
+      'Bisa dikombinasikan dengan pendakian Gunung Kawi atau Butak',
+      'Hubungi admin Bukit Jabal untuk booking tiket dan info terkini'
+    ],
+    fasilitas: ['Basecamp Bukit Jabal', 'Pos Registrasi', 'Parkir Kendaraan', 'Pemandu Lokal Tersedia']
+  },
+  {
+    id: 'bukitjabal',
+    nama: 'Bukit Jabal',
+    emoji: '🌄',
+    ketinggian: 950,
+    lokasi: 'Kab. Malang (Lereng Gunung Kawi)',
+    status: 'Tidak Aktif',
+    kesulitan: 'Mudah',
+    waktuTempuh: '1 hari',
+    populer: false,
+    warna: '#4a7c2f',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Kawi-Butak.jpg',
+    deskripsi: 'Bukit Jabal adalah perbukitan di lereng Gunung Kawi, Kabupaten Malang, dengan ketinggian sekitar 950 mdpl. Berfungsi sebagai basecamp dan destinasi wisata alam tersendiri sebelum melanjutkan ke Gunung Malang (1.718 mdpl). Menawarkan pemandangan lembah dan pegunungan Kawi yang indah dengan jalur yang ramah untuk pendaki pemula. Dikelola secara aktif dengan sistem booking tiket online.',
+    jalurUtama: 'Basecamp Bukit Jabal, Kab. Malang',
+    taman: 'Kawasan Hutan Lindung Kawi-Butak',
+    musimTerbaik: 'Sepanjang tahun (terbaik April – Oktober)',
+    tiket: 'Rp 10.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Jalur Bukit Jabal (Tektok)',
+        durasi: '2-3 jam PP',
+        jarak: '±5 km PP',
+        keterangan: 'Jalur pendek dan ramah pemula menuju puncak Bukit Jabal. Bisa dilanjutkan ke Gunung Malang bagi yang ingin tantangan lebih. Jalur melewati hutan pinus dan padang rumput terbuka dengan pemandangan kawasan Kawi.',
+        pos: [
+          { nama: 'Basecamp Bukit Jabal', ketinggian: '700 mdpl', keterangan: 'Pos registrasi, parkir & warung makan', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Hutan Pinus', ketinggian: '800 mdpl', keterangan: 'Hutan pinus rindang, jalur mulai menanjak', jarakKePos: '±1,5 km dari Basecamp' },
+          { nama: 'Puncak Bukit Jabal', ketinggian: '950 mdpl', keterangan: 'Puncak dengan pemandangan lembah dan kawasan Kawi', jarakKePos: '±1 km dari Pos 1' }
+        ]
+      }
+    ],
+    tips: [
+      'Sangat cocok untuk pendaki pemula atau wisata keluarga',
+      'Bisa dilanjutkan ke Gunung Malang (1.718 mdpl) bagi yang ingin tantangan lebih',
+      'Booking tiket pendakian via WhatsApp admin Bukit Jabal sebelum berangkat',
+      'Bawa air yang cukup karena tidak ada sumber air di jalur',
+      'Datang pagi hari untuk pemandangan terbaik sebelum kabut datang'
+    ],
+    fasilitas: ['Basecamp & Pos Registrasi', 'Parkir Kendaraan', 'Warung Makan', 'Toilet Basecamp', 'Pemandu Lokal Tersedia']
+  },
+  {
+    id: 'bukitpremium',
+    nama: 'Bukit Premium',
+    emoji: '🌅',
+    ketinggian: 2100,
+    lokasi: 'Kec. Sukapura, Kab. Probolinggo',
+    status: 'Tidak Aktif',
+    kesulitan: 'Mudah',
+    waktuTempuh: '1 hari',
+    populer: false,
+    warna: '#8b5e1a',
+    foto: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Gunung_Bromo_3.jpg',
+    deskripsi: 'Bukit Premium adalah viewpoint premium di kawasan Tengger, Sukapura, Probolinggo, yang terletak di jalur menuju Gunung Bromo. Menawarkan pemandangan panorama kawasan Bromo-Tengger-Semeru yang spektakuler, terutama saat matahari terbit. Menjadi alternatif spot sunrise yang lebih sepi dibanding Penanjakan utama.',
+    jalurUtama: 'Kec. Sukapura, Kab. Probolinggo',
+    taman: 'Kawasan TNBTS, Kab. Probolinggo',
+    musimTerbaik: 'April – Oktober',
+    tiket: 'Rp 10.000 (WNI)',
+    jalur: [
+      {
+        nama: 'Via Sukapura (Jalur Utama)',
+        durasi: '2-3 jam PP',
+        jarak: '±6 km PP',
+        keterangan: 'Jalur pendek menuju Bukit Premium dari kawasan Sukapura. Bisa ditempuh dengan berjalan kaki atau menggunakan jeep lokal. Jalur melewati ladang warga Tengger dengan pemandangan yang indah.',
+        pos: [
+          { nama: 'Sukapura / Ngadisari', ketinggian: '1.500 mdpl', keterangan: 'Titik awal, bisa naik jeep atau jalan kaki', jarakKePos: 'Start' },
+          { nama: 'Pos 1 Ladang Tengger', ketinggian: '1.800 mdpl', keterangan: 'Ladang sayuran khas Tengger, pemandangan mulai terbuka', jarakKePos: '±2 km dari Sukapura' },
+          { nama: 'Puncak Bukit Premium', ketinggian: '2.100 mdpl', keterangan: 'Viewpoint panorama Bromo-Tengger-Semeru', jarakKePos: '±1 km dari Pos 1' }
+        ]
+      }
+    ],
+    tips: [
+      'Datang sebelum subuh (pukul 04.00 WIB) untuk menyaksikan sunrise terbaik',
+      'Bawa jaket sangat tebal — suhu kawasan Tengger bisa di bawah 5°C dini hari',
+      'Bisa dikombinasikan dengan wisata Bromo dalam satu hari perjalanan',
+      'Spot ini lebih sepi dibanding Penanjakan, cocok untuk foto tanpa keramaian',
+      'Sewa jeep lokal tersedia di Sukapura/Ngadisari'
+    ],
+    fasilitas: ['Warung di Sukapura', 'Penyewaan Jeep Lokal', 'Parkir Kendaraan', 'Pemandu Lokal Tersedia']
   }
 ];
